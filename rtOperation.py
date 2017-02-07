@@ -4,38 +4,7 @@ from ctypes import *
 import urlparse
 
 
-doc = {
-	 "WebsiteURL": "http://jiangxi.gov.cn",
-	 "WebsiteTitle": u"江西人民政府",
-	 "MaliciousLinks": [ 
-	   {
-	       "Link": "http://jiangxi.gov.cn/xxaw/jwdaja.html?weja",
-	       "DetectionRule" : "js",
-	       "Keyword": u"色情",
-	       "FromBaiduSearch": "http://www.baidu.com/s?wd=site:www.jiangxi.gov.cn%20%C9%AB%C7%E9&pn=1"
-	   },
-	   {
-	       "Link": "http://jiangxi.gov.cn/xxaw/123412a.html?5151a",
-	       "DetectionRule" : "js",
-	       "Keyword": u"博彩",
-	       "FromBaiduSearch": "http://www.baidu.com/s?wd=site:www.jiangxi.gov.cn%20%C9%AD%C7%E9&pn=1"
-	   },
-	 	]
-	}
 
-
-doc2 = {
-	 "WebsiteURL": "http://jiangxi.gov.cn",
-	 "WebsiteTitle": u"江西人民政府",
-	 "MaliciousLinks": [ 
-	   {
-	       "Link": "http://jiangxi.gov.cn/hanm/00000000.html?2222c",
-	       "DetectionRule" : "lucas",
-	       "Keyword": u"枪支",
-	       "FromBaiduSearch": "http://www.baidu.com/s?wd=site:www.jiangxi.gov.cn%20%C9%AD%C7%E9&pn=1"
-	   },
-	 	]
-	}
 
 
 class rtOperation():
